@@ -9,7 +9,16 @@ import Services from "./sections/Services";
 import Contact from "./sections/Contact";
 import Footer from "./sections/Footer";
 
+// Import AOS CSS
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+import Aos from "aos";
+
 function App() {
+  useEffect(() => {
+    Aos.init();
+  });
+
   return (
     <>
       <Navbar />

@@ -16,7 +16,7 @@ function Hero() {
             Solid Sky Fund
           </h1>
           <h2 className="text-center text-xl text-white mb-6">
-            The Sky's The Limit
+            The Sky&apos;s The Limit
           </h2>
           <Button text="Contact Us" link="#" />
         </div>
