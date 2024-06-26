@@ -1,17 +1,20 @@
 import { Mail, PhoneCall, MapPin } from "lucide-react";
 import contact_img from "../assets/contact.jpg";
+import TitleSlider from "../Components/Slider";
 
 function Contact() {
   return (
-    <div className="container mx-auto px-4 pt-20 pb-32">
+    <div className=" px-4 pt-20 pb-32">
       <div>
-        <span className="block mb-4 text-lg font-semibold text-cream text-center">
-          lorem ipsum
-        </span>
         <h2 className="font-serif mb-16 text-4xl font-bold text-white sm:text-[40px]/[48px] text-center">
           Get in Touch
         </h2>
-        <div className="lg:flex gap-8 bg-[#686d7624] border border-gray px-8 py-20 rounded-lg">
+        <TitleSlider text="Lorem Ipsum" />
+        <div
+          data-aos="fade-up"
+          data-aos-duration="1200"
+          className="container mx-auto lg:flex gap-8 bg-[#686d7624] border border-gray px-8 py-20 rounded-lg"
+        >
           <div className="w-full px-3 sm:px-4 lg:w-1/2 mb-6 lg:mb-0">
             <img
               className="lg:h-[375px] rounded-lg"

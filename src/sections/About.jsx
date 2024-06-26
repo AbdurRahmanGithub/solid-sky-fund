@@ -2,7 +2,11 @@ import Button from "../Components/Button";
 function About() {
   return (
     <div className="py-24">
-      <div className=" p-8 rounded-lg bg-[#686d7624] border border-gray container m-auto lg:flex gap-8 items-center">
+      <div
+        data-aos="fade-up"
+        data-aos-duration="1200"
+        className=" p-8 rounded-lg bg-[#686d7624] border border-gray container m-auto lg:flex gap-8 items-center"
+      >
         <div className="w-full px-3 sm:px-4 lg:w-1/3">
           <div className=" my-4">
             <img

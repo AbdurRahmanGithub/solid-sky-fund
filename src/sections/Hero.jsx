@@ -11,11 +11,16 @@ function Hero() {
         <div className="flex flex-col items-center px-4 py-36 max-w-[1140px] m-auto">
           <h1
             data-aos="fade-up"
+            data-aos-duration="1200"
             className="font-serif text-center text-5xl lg:text-6xl font-bold text-white mb-6"
           >
             Solid Sky Fund
           </h1>
-          <h2 className="text-center text-xl text-white mb-6">
+          <h2
+            data-aos="fade-up"
+            data-aos-duration="1200"
+            className="text-center text-xl text-white mb-6"
+          >
             The Sky&apos;s The Limit
           </h2>
           <Button text="Contact Us" link="#" />

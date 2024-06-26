@@ -5,6 +5,64 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Solid Sky Fund</title>
+
+    <!-- Style for title slider -->
+
+    <style>
+      .banner-wrapper {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        gap: 20px;
+        overflow: hidden;
+      }
+
+      .skill-list {
+        margin: 0;
+        list-style-type: none;
+        display: flex;
+        gap: 20px;
+        padding: 0 5px;
+        animation: scrolling linear;
+        animation-timeline: scroll(root);
+      }
+      .skill-list li {
+        color: white;
+        font-weight: bold;
+
+        border-radius: 8px;
+        white-space: nowrap;
+        display: flex;
+        gap: 20px;
+        font-family: "Roboto Mono", Sans-serif;
+      }
+
+      .skill-list li::after {
+        content: "";
+        height: 24px;
+        width: 24px;
+        display: inline-block;
+        background-image: url("https://karima.wpshopmaker.com/wp-content/uploads/2024/01/Polygon-1.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+
+      @keyframes scrolling {
+        0% {
+          translate: 0%;
+        }
+        100% {
+          translate: -70%;
+        }
+      }
+
+      @media (max-width: 768px) {
+        .skill-list li {
+          font-size: 14px;
+        }
+      }
+    </style>
   </head>
   <body class="bg-[#111223]">
     <div id="root"></div>
